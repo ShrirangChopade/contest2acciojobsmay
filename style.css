@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(230, 225, 246);
+}
+html{
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color: bisque;
+}
+
+a:hover{
+    color:rgb(129, 72, 183);
+}
+
+table{
+    border: 1;
+    border-collapse: collapse;
+}
+
+section
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+tr,td,th{
+    padding: 10px;
+}
+
+td a{
+    color: brown;
+}
+
+input{
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.white-background-with-margin
+{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.nav-container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.title{
+    color: white;
+    margin-left: 50px;
+    font-size: x-large;
+}
+
+.navigation{
+    display: flex;
+}
+
+.nav-item{
+    font-size: large;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.books{
+    margin-top: 10%;
+    padding: 20px;
+}
+
+.books-table{
+    width: 100%;
+}
+
+.books-inner-table{
+    margin-top:10px;
+}
+
+.register{
+    padding: 20px;
+}
+
+.form-item{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.btn{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+
