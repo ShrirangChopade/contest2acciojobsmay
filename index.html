@@ -1,197 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <title>Books</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class="nav-container">
-            <div class="nav-brand">
-                <a href="#" class="title">Library System</a>
-            </div>
-            <div class="nav-item-con">
-                <div class="navigation">
-                    <div class="nav-item"><a href="#books">Books</a></div>
-                    <div class="nav-item"><a href="#register">Register</a></div>
-                    <div class="nav-item"><a href="#">Contact Us</a></div>
-                    <div class="nav-item"> <a href="#">Logout</a></div>
-                </div>
-            </div>
-
+      <div class="nav-container">
+        <div class="nav-brand">
+          <a href="#" class="title">Library System</a>
         </div>
+        <div class="nav-item-con">
+          <div class="navigation">
+            <div class="nav-item"><a href="#books">Books</a></div>
+            <div class="nav-item"><a href="#register">Register</a></div>
+            <div class="nav-item"><a href="#">Contact Us</a></div>
+            <div class="nav-item"><a href="#">Logout</a></div>
+          </div>
+        </div>
+      </div>
     </nav>
     <section>
-        <div class="container">
+      <div class="container">
         <div class="books white-background-with-margin" id="books">
-            <h1>Books</h1>
-            <table border="1" class="books-table">
-                <tr>
-                    <th>Book ID</th>
-                    <th>Title</th>
-                    <th>Author</th>
-                    <th>Genre</th>
-                    <th>Availability</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>
-                        <a href="#">The India Story</a>
-                        <table border="1" class="books-inner-table">
-                            <tr>
-                                <td>Publication Date: 2000</td>
-                            </tr>
-                            <tr>
-                                <td>Page Count: 250</td>
-                            </tr>
-                            <tr>
-                                <td>ISBN: 123-4567890123</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>Bimal Jalal</td>
-                    <td>Novel</td>
-                    <td>Available</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>
-                        <a href="#">A Place Called Home</a>
-                        <table border="1">
-                            <tr>
-                                <td>Publication Date: 2005</td>
-                            </tr>
-                            <tr>
-                                <td>Page Count: 300</td>
-                            </tr>
-                            <tr>
-                                <td>ISBN: 123-4567890456</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>Preeti Shenoy</td>
-                    <td>Drama</td>
-                    <td>Not Available</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>
-                        <a href="#">Lal Salam</a>
-                        <table border="1">
-                            <tr>
-                                <td>Publication Date: 2010</td>
-                            </tr>
-                            <tr>
-                                <td>Page Count: 350</td>
-                            </tr>
-                            <tr>
-                                <td>ISBN: 123-4567890789</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>Smriti Irani</td>
-                    <td>Politics</td>
-                    <td>Available</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>
-                        <a href="#">Queen of Fire</a>
-                        <table border="1" class="books-inner-table">
-                            <tr>
-                                <td>Publication Date: 2000</td>
-                            </tr>
-                            <tr>
-                                <td>Page Count: 250</td>
-                            </tr>
-                            <tr>
-                                <td>ISBN: 123-4567890123</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>Devika Rangachari</td>
-                    <td>Poetry</td>
-                    <td>Available</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>
-                        <a href="#">The Maverick Effect</a>
-                        <table border="1" class="books-inner-table">
-                            <tr>
-                                <td>Publication Date: 2000</td>
-                            </tr>
-                            <tr>
-                                <td>Page Count: 250</td>
-                            </tr>
-                            <tr>
-                                <td>ISBN: 123-4567890123</td>
-                            </tr>
-                        </table>
-                    </td>
-                    <td>Harish Mehta</td>
-                    <td>Story</td>
-                    <td>Available</td>
-                </tr>
-            </table>
+          <h1>Books</h1>
+          <table border="1" class="books-table">
+            <tr>
+              <th>Book ID</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Genre</th>
+              <th>Availability</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>
+                <a href="#">The India Story</a>
+                <table border="1" class="books-inner-table">
+                  <tr>
+                    <td>Publication Date: 2000</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 250</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Bimal Jalal</td>
+              <td>Novel</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>
+                <a href="#">A Place Called Home</a>
+                <table border="1">
+                  <tr>
+                    <td>Publication Date: 2005</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 300</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890456</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Preeti Shenoy</td>
+              <td>Drama</td>
+              <td>Not Available</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>
+                <a href="#">Lal Salam</a>
+                <table border="1">
+                  <tr>
+                    <td>Publication Date: 2010</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 350</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890789</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Smriti Irani</td>
+              <td>Politics</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>
+                <a href="#">Queen of Fire</a>
+                <table border="1" class="books-inner-table">
+                  <tr>
+                    <td>Publication Date: 2000</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 250</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Devika Rangachari</td>
+              <td>Poetry</td>
+              <td>Available</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>
+                <a href="#">The Maverick Effect</a>
+                <table border="1" class="books-inner-table">
+                  <tr>
+                    <td>Publication Date: 2000</td>
+                  </tr>
+                  <tr>
+                    <td>Page Count: 250</td>
+                  </tr>
+                  <tr>
+                    <td>ISBN: 123-4567890123</td>
+                  </tr>
+                </table>
+              </td>
+              <td>Harish Mehta</td>
+              <td>Story</td>
+              <td>Available</td>
+            </tr>
+          </table>
         </div>
         <div class="register white-background-with-margin" id="register">
-            <h1>Register</h1>
-            <form name="form" id="form" class="form">
-                <div class="form-item">
-                    <label for="fname">First Name: </label>
-                    <input type="text" name="fname" id="fname" required />
-                </div>
-                <div class="form-item">
-                    <label for="lname">Last Name: </label>
-                    <input type="text" name="lname" id="lname" required />
-                </div>
-                <div class="form-item">
-                    <label for="dob">Date Of Birth: </label>
-                    <input type="date" name="dob" id="dob" required />
-                </div>
-                <div class="form-item">
-                    <label for="age">Age: </label>
-                    <input type="number" min="5" max="100" name="age" id="age" required />
-                </div>
-                <div class="form-item">
-                    <label for="email">Email: </label>
-                    <input type="email" name="email" id="email" required />
-                </div>
-                <div class="form-item">
-                    <label for="pswd">Password: </label>
-                    <input type="password" name="pswd" id="pswd" required />
-                </div>
-                <div class="form-item">
-                    <label for="cnfpswd">Confirm Password: </label>
-                    <input type="password" name="cnfpswd" id="cnfpswd" required />
-                </div>
-                <div class="form-item">
-                    <input type="button" onclick="return matchPassword();"  class="btn" value="Register" />
-                </div>
-            </form>
+          <h1>Register</h1>
+          <form name="form" id="form" class="form">
+            <div class="form-item">
+              <label for="fname">First Name: </label>
+              <input type="text" name="fname" id="fname" required />
+            </div>
+            <div class="form-item">
+              <label for="lname">Last Name: </label>
+              <input type="text" name="lname" id="lname" required />
+            </div>
+            <div class="form-item">
+              <label for="dob">Date Of Birth: </label>
+              <input type="date" name="dob" id="dob" required />
+            </div>
+            <div class="form-item">
+              <label for="age">Age: </label>
+              <input
+                type="number"
+                min="5"
+                max="100"
+                name="age"
+                id="age"
+                required
+              />
+            </div>
+            <div class="form-item">
+              <label for="email">Email: </label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-item">
+              <label for="pswd">Password: </label>
+              <input type="password" name="pswd" id="pswd" required />
+            </div>
+            <div class="form-item">
+              <label for="cnfpswd">Confirm Password: </label>
+              <input type="password" name="cnfpswd" id="cnfpswd" required />
+            </div>
+            <div class="form-item">
+              <input type="submit" class="btn" value="Register" />
+            </div>
+          </form>
         </div>
-        </div>
+      </div>
     </section>
-    <script>  
-function matchPassword() {  
-  var pw1 = document.getElementById("pswd");  
-  var pw2 = document.getElementById("cnfpswd");
-  var frm = document.getElementById("form");
-  if(pw1.value != pw2.value)  
-  {   
-    alert("Passwords did not match");  
-  } 
-  else{
-    frm.submit();
-  }
-}  
-</script> 
-</body>
+    <script>
+      var pw1 = document.getElementById("pswd");
+      var pw2 = document.getElementById("cnfpswd");
+
+      function validatePassword() {
+        if (pw1.value != pw2.value) {
+          console.log("1:" + pw1.value);
+          console.log("2:" + pw2.value);
+          pw2.setCustomValidity("Password don't match");
+        }
+        else{
+            pw2.setCustomValidity("");
+        }
+      }
+
+      pw1.onchange = validatePassword;
+      pw2.onkeyup = validatePassword;
+    </script>
+  </body>
 </html>
